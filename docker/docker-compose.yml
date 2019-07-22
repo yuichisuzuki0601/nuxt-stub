@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: nuxt-stub-mysql
+    command: mysqld --character-set-server=utf8
+    environment:
+      MYSQL_ROOT_HOST: localhost
+      MYSQL_ROOT_PASSWORD: Ga78BrwA
+      MYSQL_DATABASE: nuxt_stub_db
+      MYSQL_USER: nuxt_stub_user
+      MYSQL_PASSWORD: rZ4XLxtn
+      TZ: Asia/Tokyo
+    ports:
+      - 3306:3306
+    volumes:
+      - ./volumes/mysql/var/lib/mysql:/var/lib/mysql

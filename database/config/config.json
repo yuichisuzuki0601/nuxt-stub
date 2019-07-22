@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "nuxt_stub_user",
+    "password": "rZ4XLxtn",
+    "database": "nuxt_stub_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "nuxt_stub_user",
+    "password": "rZ4XLxtn",
+    "database": "nuxt_stub_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "nuxt_stub_user",
+    "password": "rZ4XLxtn",
+    "database": "nuxt_stub_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
